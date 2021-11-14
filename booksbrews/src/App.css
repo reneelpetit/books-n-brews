@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: darkblue;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage {
+  background: url('./des-recits-gvm_Kmm3-9o-unsplash.jpg') left no-repeat, url('./sid-saxena--7EqDr9UE_M-unsplash.jpg') right no-repeat;
+  height: 100vh;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+button {
+  color: blue;
+  font-size: 18px;
+  border: blue 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#link {
+  text-decoration: none;
+}
+
+#homepage h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+#products, #stores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.list-container {
+  font-family:'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.list-container td, .list-item th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.list-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list-container tr:hover {background-color: #ddd;}
+
+.list-container th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+#zipcodeButton {
+  color: blue;
+  font-size: 10px;
+  border: blue 1px solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+input {
+  padding: 5px;
+}
+
+#zipFieldset {
+  padding: 5px;
+}
+
+#box {
+  border: black 1pt solid;
+}
+
+footer {
+  font-size: 10px;
+  color:beige;
+  position: fixed;
+  padding: 70px 0 0 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+footer a {
+  color: beige;
+}
